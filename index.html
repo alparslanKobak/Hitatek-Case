@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="tr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HitaTek</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="sticky-lg-top">
+        <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+            <div class="container text-center text-lg-start">
+                <a class="navbar-brand fs-3 fw-bold fst-italic" href="index.html">
+                    <img src="https://www.hitatek.com/tr/images/logo-big.png" class="img-fluid p-1"
+                        style="max-height: 70px;" title="HitaTek Haber Anasayfa" alt="">
+                    HitaTek Haber
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+                    aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                    <ul class="navbar-nav justify-content-center me-auto mb-2 offset-lg-1 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"><i
+                                    class="bi bi-house-door-fill">Anasayfa</i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#burcYorum">Eğlence</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="https://www.hitatek.com/tr/">Resmi Sitemiz</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#adresBilgi">Hakkımızda</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Ara..." aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">Ara</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <aside class="container-fluid d-none d-lg-block mt-2">
+        <!-- Reklam alanı olarak tasarlanmıştır. -->
+        <div class="row">
+            <div class="col-12">
+                <a href="https://baykartech.com/en/uav/bayraktar-tb2/" target="_blank">
+                    <img src="https://idsb.tmgrup.com.tr/ly/uploads/images/2023/01/25/253597.jpg"
+                        class=" shadow img-fluid " title="Gururumuz Bayraktara Göz Atın..." style="max-height: 350px;"
+                        width="100%" alt="">
+
+                </a>
+            </div>
+        </div>
+
+    </aside>
+
+    <main class="container-fluid ">
+
+        <section class="mt-2 mb-2">
+            <div class="row">
+                <div class="col-12">
+                    <div id="carouselExampleCaptions" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <a href="https://openai.com/blog/chatgpt" target="_blank">
+                                    <img src="https://gamizm.com/wp-content/uploads/ai-yapay-zeka-ana-kart.jpg"
+                                        title="openai" class="d-block w-100" alt="...">
+                                </a>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>GPT-4 Çılgınlığı</h5>
+                                    <p>Yapay zeka ile yapılan geliştirmeler hızla devam ediyor.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="https://www.kaspersky.com.tr/resource-center/definitions/what-is-cyber-security"
+                                    target="_blank">
+                                    <img src="https://detaysoft.com/sites/site-1/upload/thumbs/Siber-Gu%CC%88venlik,-Yo%CC%88netim,-Risk-ve-Uyumluluk-1045-1200-607-p-center_center-FFFFFF.png"
+                                        class="d-block w-100" alt="..." title="CyberSecurity">
+                                </a>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Güvende Hissetmiyor musunuz?</h5>
+                                    <p>Zaman zaman kameranızın sizi gözetlemesinden, cihazınızın sizi dinlemesinden
+                                        şüpheleniyorsanız, haklısınız... Bilgileriniz işleniyor olabilir!</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://media.licdn.com/dms/image/D4D22AQE3mCm7L2jZlw/feedshare-shrink_2048_1536/0/1679824215570?e=1693440000&v=beta&t=zxFT778U1Lg__en5vuKiXtgLdsuLc4fP5pucii2mLrw"
+                                    class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>İşbirliğimiz, gururumuz...</h5>
+                                    <p>Hitatek sahada yaptı yine yapacağını... İşbirliği yaptıklarımızı gururlandırmaya
+                                        devam ediyoruz...</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+
+                <hr class="mt-2 mb-2">
+
+                <div class="row">
+                    <div class="col-12 col-md-6 mt-2">
+                        <div class="card shadow" style="width: 100%; height: 100%;">
+                            <a href="https://www.google.com/maps/place/HITATEK/@39.8637284,32.7333011,17z/data=!3m1!4b1!4m6!3m5!1s0x14d34f90eecfa19d:0x70768599505b9b!8m2!3d39.8637244!4d32.7381774!16s%2Fg%2F11hf19f2gg?entry=ttu"
+                                target="_blank">
+                                <img src="https://pr1.nicelocal.biz.tr/Rx_IJkwtCG5E0H0wA2xwAw/640x319,q85/4px-BW84_n0QJGVPszge3NRBsKw-2VcOifrJIjPYFYkOtaCZxxXQ2UwTAclcq4mAXvPR7l41xCG5T-RmKoXW7nfgps047V1IOTSyo8HxH6kAiDG1TNYImA"
+                                    title="Bilkent Ofisimiz" class="card-img-top" alt="...">
+
+                            </a>
+                            <div class="card-body">
+                                <p class="card-text">Ar-Ge merkezimiz yenileniyor, şirketimiz büyüdükçe
+                                    ekibimizde
+                                    büyüyor... Çok yakında daha geniş bir aileyle, daha büyük projelerde
+                                    olacağız... Çankaya'nın Bilkent Üniversite'sinde bizlerle birlikte tanışma fırsatını
+                                    kaçırmayın...
+                                </p>
+                                <a class="btn btn-outline-dark"
+                                    href="https://www.google.com/maps/place/HITATEK/@39.8637284,32.7333011,17z/data=!3m1!4b1!4m6!3m5!1s0x14d34f90eecfa19d:0x70768599505b9b!8m2!3d39.8637244!4d32.7381774!16s%2Fg%2F11hf19f2gg?entry=ttu">Detayları
+                                    Gör.</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 mt-2 mb-2">
+                        <div class="card shadow" style="width: 100%; height: 100%;">
+                            <a href="https://www.tev.org.tr/anasayfa/tr" target="_blank">
+                                <img src="https://barandogan.av.tr/images/okul-ogrenci-egitimin-engellenmesi-1280x720.webp"
+                                    title="HitaTek Eğitim Desteği" class="card-img-top" alt="...">
+
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Eğitim Burslarımız</h5>
+                                <p class="card-text">Genç nesillerin geleceği bizlerin elinde... HitaTek olarak
+                                    Türk Eğitim Vakfı işbirliğimiz ile pek çok öğrenciye burs sağladık.</p>
+                                <a href="https://www.tev.org.tr/anasayfa/tr" class="btn btn-outline-dark">Detayları
+                                    Gör.</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr class="mt-2 mb-2">
+
+        <section class="row">
+            <div class="row">
+                <div id="burcYorum" class="col-12 mt-3 mb-3 mt-md-0 mb-md-0 col-md-4 col-lg-3">
+                    <div class="card shadow" style="width: 100%; height: 100%;">
+                        <a href="https://mitr.com.tr/koc-burcunun-ozellikleri-nelerdir/" target="_blank">
+
+                            <img src="https://mitr.com.tr/wp-content/uploads/2022/11/koc-burcu-kwbr-cover_blog_g2110_1280x800_GqL7Jt4l.jpeg" title="Koç Burcu" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Koç Burcu</h5>
+                            <p class="card-text">İnatçı olduğu kadar duygusal bir ay geçirileceğe benziyor. Siz iyisi mi çok dikine gitmeyin ...</p>
+                            <a href="https://mitr.com.tr/koc-burcunun-ozellikleri-nelerdir/" target="_blank" class="btn btn-outline-dark">Detayları Gör</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mt-3 mb-3 mt-md-0 mb-md-0 col-md-4 col-lg-3">
+                    <div class="card shadow" style="width: 100%; height: 100%;">
+                        <a href="https://www.tulomsas.com.tr/terazi-burcu-ozellikleri/" target="_blank">
+
+                            <img src="https://www.tulomsas.com.tr/wp-content/uploads/2023/07/terazi-burcu.jpg" title="Terazi Burcu" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Terazi Burcu</h5>
+                            <p class="card-text">Dengeli olmanızın önem kazandığı son dönemlere giriyoruz. Şans ve aşka inanmalısınız... </p>
+                            <a href="https://www.tulomsas.com.tr/terazi-burcu-ozellikleri/" target="_blank" class="btn btn-outline-dark">Detayları Gör</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mt-3 mb-3 mt-md-0 mb-md-0 col-md-4 col-lg-3">
+                    <div class="card shadow" style="width: 100%; height: 100%;">
+                        <a href="https://onedio.com/yasam/astroloji/aslan-burcu" target="_blank">
+
+                            <img src="https://img-s1.onedio.com/id-62ef38e1401c9fac25cee2ac/rev-0/w-600/h-287/f-jpg/s-fa03508134dbfa8623dd9a42055a9fe027bb8e03.jpg" title="Terazi Burcu" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Aslan Burcu</h5>
+                            <p class="card-text">Yeni bir ekip arkadaşı ediniyorsunuz, yeni bir yüz, yeni bir kimlik, farklı bir hayat... Kısa bir zaman içerisinde olanlara inanamayacaksınız! </p>
+                            <a href="https://onedio.com/yasam/astroloji/aslan-burcu" target="_blank" class="btn btn-outline-dark">Detayları Gör</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12  mt-3 mb-3 mt-md-0 mb-md-0 col-md-4 col-lg-3">
+                    <div class="card shadow" style="width: 100%; height: 100%;">
+                        <a href="https://www.tulomsas.com.tr/boga-burcu-ozellikleri/" target="_blank">
+
+                            <img src="https://www.tulomsas.com.tr/wp-content/uploads/2023/07/boga-burcu.jpg" title="Boğa Burcu" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">Boğa Burcu</h5>
+                            <p class="card-text">Mutfak dünyanız git gide genişliyor. Yeni bir seyehatle taçlandırılmış lezzet rotası oluşturuyorsunuz... </p>
+                            <a href="https://www.tulomsas.com.tr/boga-burcu-ozellikleri/" target="_blank" class="btn btn-outline-dark">Detayları Gör</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <hr class="mt-2 mb-2">
+
+    <footer class="bg-dark text-bg-dark mt-2">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-6 col-lg-4 text-center">
+                    <h5 class="mt-2 fw-semibold fst-italic">
+                        Bize Ulaş
+                    </h5>
+                    <hr>
+                    <div class="input-group input-group-sm mt-2 mb-3">
+                        <span class="input-group-text text-bg-dark" id="inputGroup-sizing-sm">Email</span>
+                        <input type="text" placeholder="Ornek@HitaTek.com" class="form-control">
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-9">
+
+                            <div class="form-floating mb-1 mt-1">
+                                <textarea class="form-control" placeholder="Mesaj Bırakın" id="floatingTextarea2"
+                                    style="height: 100px"></textarea>
+                                <label for="floatingTextarea2">Mesaj Bırakın</label>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 align-content-center mt-2 mb-2 mt-lg-4 me-md-2 pe-lg-1">
+                            <a role="button" href="mailto:ilesitim@hitatek.com" class="btn btn-outline-light">Gönder</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <figure class="align-content-center text-center mt-sm-3 mt-lg-4 mt-2">
+                        <a class="btn btn-outline-light" href="https://www.hitatek.com/tr/" target="_blank">
+                            <img src="https://www.hitatek.com/tr/images/logo-big.png" class="img-fluid p-1"
+                                style="max-height: 100px;" title="HitaTek Resmi Sitesine Git" alt="">
+                        </a>
+                        <hr>
+                        <figcaption class="fst-italic fw-semibold">HitaTek... Savunmada Tek!</figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-12 col-lg-4 text-center">
+                    <h5 class="mt-2 fw-semibold fst-italic">Adresimiz</h5>
+                    <hr>
+                    <address id="adresBilgi" class="fw-lighter fst-italic">
+                        Üniversiteler Mah. 1596. Cad. Hacettepe 4. AR-GE A Blok
+
+                        Bina No:95/A Kat 1 No:45
+
+                        Çankaya/ANKARA 06800
+                    </address>
+                    <hr>
+                    <a href="tel:+905469345426" class="link-light link-underline-opacity-0 fw-lighter fst-italic mb-2">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/767px-WhatsApp.svg.png"
+                            class="img-fluid" style="max-height: 30px;" title="WhatsApp ile ulaş" alt="">
+                        Telefon ile ulaş : +905469345426
+                    </a>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
