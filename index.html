@@ -30,9 +30,16 @@
                             <a class="nav-link active" aria-current="page" href="#"><i
                                     class="bi bi-house-door-fill">Anasayfa</i></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#burcYorum">Eğlence</a>
-                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Haberler
+                            </a>
+                            <ul class="dropdown-menu text-center">
+                              <li><a class="dropdown-item" href="#burcYorum">Eğlence</a></li>
+                              <li><a class="dropdown-item" href="#ekonomi">Ekonomi</a></li>
+                              <li><a class="dropdown-item" href="#gelismeler">Gelişmeler</a></li>
+                            </ul>
+                          </li>
                         <li class="nav-item">
                             <a class="nav-link" target="_blank" href="https://www.hitatek.com/tr/">Resmi Sitemiz</a>
                         </li>
@@ -53,12 +60,42 @@
         <!-- Reklam alanı olarak tasarlanmıştır. -->
         <div class="row">
             <div class="col-12">
-                <a href="https://baykartech.com/en/uav/bayraktar-tb2/" target="_blank">
-                    <img src="https://idsb.tmgrup.com.tr/ly/uploads/images/2023/01/25/253597.jpg"
-                        class=" shadow img-fluid " title="Gururumuz Bayraktara Göz Atın..." style="max-height: 350px;"
-                        width="100%" alt="">
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="https://baykartech.com/en/uav/bayraktar-tb2/" target="_blank">
+                                <img src="https://c4.wallpaperflare.com/wallpaper/482/297/105/air-force-turkish-armed-forces-hangar-bayraktar-tb2-wallpaper-preview.jpg"
+                                    style="max-height: 350px;" title="Gururumuz Bayraktara Göz Atın..."
+                                    class="d-block w-100" alt="...">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="https://tua.gov.tr/tr" target="_blank">
+                                <img src="https://cdn.artigercek.com/news/84658.jpg"
+                                    style="max-height: 350px;" title="Uzay Ajansında çalışma fırsatı..."
+                                    class="d-block w-100" alt="...">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="https://www.borsaistanbul.com/tr/" target="_blank">
+                                <img src="https://i.dunya.com/storage/files/images/2022/12/13/borsa-ddmr_cover.jpg"
+                                    style="max-height: 350px;" title="Borsa İstanbul yatırımcısı olun..."
+                                    class="d-block w-100" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
 
-                </a>
             </div>
         </div>
 
@@ -127,7 +164,7 @@
                 <hr class="mt-2 mb-2">
 
                 <div class="row">
-                    <div class="col-12 col-md-6 mt-2">
+                    <div id="gelismeler" class="col-12 col-md-6 mt-2">
                         <div class="card shadow" style="width: 100%; height: 100%;">
                             <a href="https://www.google.com/maps/place/HITATEK/@39.8637284,32.7333011,17z/data=!3m1!4b1!4m6!3m5!1s0x14d34f90eecfa19d:0x70768599505b9b!8m2!3d39.8637244!4d32.7381774!16s%2Fg%2F11hf19f2gg?entry=ttu"
                                 target="_blank">
@@ -159,7 +196,8 @@
                                 <h5 class="card-title">Eğitim Burslarımız</h5>
                                 <p class="card-text">Genç nesillerin geleceği bizlerin elinde... HitaTek olarak
                                     Türk Eğitim Vakfı işbirliğimiz ile pek çok öğrenciye burs sağladık.</p>
-                                <a href="https://www.tev.org.tr/anasayfa/tr" target="_blank" class="btn btn-outline-dark">Detayları
+                                <a href="https://www.tev.org.tr/anasayfa/tr" target="_blank"
+                                    class="btn btn-outline-dark">Detayları
                                     Gör.</a>
                             </div>
                         </div>
@@ -175,12 +213,15 @@
                     <div class="card shadow" style="width: 100%; height: 100%;">
                         <a href="https://mitr.com.tr/koc-burcunun-ozellikleri-nelerdir/" target="_blank">
 
-                            <img src="https://mitr.com.tr/wp-content/uploads/2022/11/koc-burcu-kwbr-cover_blog_g2110_1280x800_GqL7Jt4l.jpeg" title="Koç Burcu" class="card-img-top" alt="...">
+                            <img src="https://mitr.com.tr/wp-content/uploads/2022/11/koc-burcu-kwbr-cover_blog_g2110_1280x800_GqL7Jt4l.jpeg"
+                                title="Koç Burcu" class="card-img-top" alt="...">
                         </a>
                         <div class="card-body">
                             <h5 class="card-title">Koç Burcu</h5>
-                            <p class="card-text">İnatçı olduğu kadar duygusal bir ay geçirileceğe benziyor. Siz iyisi mi çok dikine gitmeyin ...</p>
-                            <a href="https://mitr.com.tr/koc-burcunun-ozellikleri-nelerdir/" target="_blank" class="btn btn-outline-dark">Detayları Gör</a>
+                            <p class="card-text">İnatçı olduğu kadar duygusal bir ay geçirileceğe benziyor. Siz iyisi mi
+                                çok dikine gitmeyin ...</p>
+                            <a href="https://mitr.com.tr/koc-burcunun-ozellikleri-nelerdir/" target="_blank"
+                                class="btn btn-outline-dark">Detayları Gör</a>
                         </div>
                     </div>
                 </div>
@@ -188,12 +229,15 @@
                     <div class="card shadow" style="width: 100%; height: 100%;">
                         <a href="https://www.tulomsas.com.tr/terazi-burcu-ozellikleri/" target="_blank">
 
-                            <img src="https://www.tulomsas.com.tr/wp-content/uploads/2023/07/terazi-burcu.jpg" title="Terazi Burcu" class="card-img-top" alt="...">
+                            <img src="https://www.tulomsas.com.tr/wp-content/uploads/2023/07/terazi-burcu.jpg"
+                                title="Terazi Burcu" class="card-img-top" alt="...">
                         </a>
                         <div class="card-body">
                             <h5 class="card-title">Terazi Burcu</h5>
-                            <p class="card-text">Dengeli olmanızın önem kazandığı son dönemlere giriyoruz. Şans ve aşka inanmalısınız... </p>
-                            <a href="https://www.tulomsas.com.tr/terazi-burcu-ozellikleri/" target="_blank" class="btn btn-outline-dark">Detayları Gör</a>
+                            <p class="card-text">Dengeli olmanızın önem kazandığı son dönemlere giriyoruz. Şans ve aşka
+                                inanmalısınız... </p>
+                            <a href="https://www.tulomsas.com.tr/terazi-burcu-ozellikleri/" target="_blank"
+                                class="btn btn-outline-dark">Detayları Gör</a>
                         </div>
                     </div>
                 </div>
@@ -201,12 +245,15 @@
                     <div class="card shadow" style="width: 100%; height: 100%;">
                         <a href="https://onedio.com/yasam/astroloji/aslan-burcu" target="_blank">
 
-                            <img src="https://img-s1.onedio.com/id-62ef38e1401c9fac25cee2ac/rev-0/w-600/h-287/f-jpg/s-fa03508134dbfa8623dd9a42055a9fe027bb8e03.jpg" title="Terazi Burcu" class="card-img-top" alt="...">
+                            <img src="https://img-s1.onedio.com/id-62ef38e1401c9fac25cee2ac/rev-0/w-600/h-287/f-jpg/s-fa03508134dbfa8623dd9a42055a9fe027bb8e03.jpg"
+                                title="Terazi Burcu" class="card-img-top" alt="...">
                         </a>
                         <div class="card-body">
                             <h5 class="card-title">Aslan Burcu</h5>
-                            <p class="card-text">Yeni bir ekip arkadaşı ediniyorsunuz, yeni bir yüz, yeni bir kimlik, farklı bir hayat... Kısa bir zaman içerisinde olanlara inanamayacaksınız! </p>
-                            <a href="https://onedio.com/yasam/astroloji/aslan-burcu" target="_blank" class="btn btn-outline-dark">Detayları Gör</a>
+                            <p class="card-text">Yeni bir ekip arkadaşı ediniyorsunuz, yeni bir yüz, yeni bir kimlik,
+                                farklı bir hayat... Kısa bir zaman içerisinde olanlara inanamayacaksınız! </p>
+                            <a href="https://onedio.com/yasam/astroloji/aslan-burcu" target="_blank"
+                                class="btn btn-outline-dark">Detayları Gör</a>
                         </div>
                     </div>
                 </div>
@@ -214,17 +261,67 @@
                     <div class="card shadow" style="width: 100%; height: 100%;">
                         <a href="https://www.tulomsas.com.tr/boga-burcu-ozellikleri/" target="_blank">
 
-                            <img src="https://www.tulomsas.com.tr/wp-content/uploads/2023/07/boga-burcu.jpg" title="Boğa Burcu" class="card-img-top" alt="...">
+                            <img src="https://www.tulomsas.com.tr/wp-content/uploads/2023/07/boga-burcu.jpg"
+                                title="Boğa Burcu" class="card-img-top" alt="...">
                         </a>
                         <div class="card-body">
                             <h5 class="card-title">Boğa Burcu</h5>
-                            <p class="card-text">Mutfak dünyanız git gide genişliyor. Yeni bir seyehatle taçlandırılmış lezzet rotası oluşturuyorsunuz... </p>
-                            <a href="https://www.tulomsas.com.tr/boga-burcu-ozellikleri/" target="_blank" class="btn btn-outline-dark">Detayları Gör</a>
+                            <p class="card-text">Mutfak dünyanız git gide genişliyor. Yeni bir seyehatle taçlandırılmış
+                                lezzet rotası oluşturuyorsunuz... </p>
+                            <a href="https://www.tulomsas.com.tr/boga-burcu-ozellikleri/" target="_blank"
+                                class="btn btn-outline-dark">Detayları Gör</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
+        <hr class="mt-2 mb-2">
+
+        <aside class="row">
+            <div class="col-12 col-lg-7">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="https://www.vakifbank.com.tr/" target="_blank">
+
+                                <img src="https://cdnuploads.aa.com.tr/uploads/sirkethaberleri/Contents/2019/12/11/thumbs_b_c_319f9b75d0d1e5da864cec438bc2b184.jpg"
+                                    class="d-block w-100" title="Krediye mi ihtiyacınız var?" alt="...">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="https://w3.bilkent.edu.tr/www/" target="_blank">
+
+                                <img src="https://sarigolgundemcom.teimg.com/crop/1280x720/sarigolgundem-com/uploads/2023/07/bilkent-universitesi-ankara.png"
+                                    class="d-block w-100" title="Tercihiniz Bilkent Olsun..." alt="...">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="https://www.togg.com.tr/" target="_blank">
+
+                                <img src="https://media.autoexpress.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-image-full-desktop@1/v1641399338/autoexpress/2022/01/Togg-concept-2022-front-header.jpg"
+                                    class="d-block w-100" title="Togg'a göz atın!" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-5 mt-2 mt-lg-0">
+                <div id="ekonomi" class="card text-bg-dark rounded-3 shadow">
+                    <a href="https://www.bbc.com/turkce/haberler-turkiye-61546461" target="_blank">
+                        <img src="https://media-cdn.t24.com.tr/media/library/2019/05/1556699438776-ress.jpg"
+                            title="Reseson beklentilerini görün..." class="card-img" alt="...">
+                    </a>
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Resesyon mu geliyor?</h5>
+                        <p class="card-text">Dünya piyasalarının girdileri ve çıktılarının son günlerde dalgalı
+                            seyrettiği görülüyor. Peki bu ortamda küçük yatırımcıya ne olacak?</p>
+                        <p class="card-text"><small>Detayları Öğren...</small></p>
+                    </div>
+                </div>
+            </div>
+
+        </aside>
     </main>
     <hr class="mt-2 mb-2">
 
